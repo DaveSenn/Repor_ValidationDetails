@@ -1,15 +1,20 @@
 using System;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
-using ValidationDetails;
 
-static IHostBuilder CreateHostBuilder( String[] args ) =>
-    Host.CreateDefaultBuilder( args )
-        .ConfigureWebHostDefaults( webBuilder => webBuilder.UseStartup<Startup>() );
-
-static void Main( String[] args )
+namespace ValidationDetails
 {
-    CreateHostBuilder( args )
-        .Build()
-        .Run();
+    public static class Program
+    {
+        private static IHostBuilder CreateHostBuilder( String[] args ) =>
+            Host.CreateDefaultBuilder( args )
+                .ConfigureWebHostDefaults( webBuilder => webBuilder.UseStartup<Startup>() );
+
+        public static void Main( String[] args )
+        {
+            CreateHostBuilder( args )
+                .Build()
+                .Run();
+        }
+    }
 }

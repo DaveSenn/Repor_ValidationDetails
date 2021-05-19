@@ -26,3 +26,4 @@ C:\Temp\ValidationDetails\ValidationDetails\obj\Debug\net5.0\ValidationDetails.d
 C:\Temp\ValidationDetails\ValidationDetails\obj\Debug\net5.0\ref\ValidationDetails.dll
 C:\Temp\ValidationDetails\ValidationDetails\obj\Debug\net5.0\ValidationDetails.pdb
 C:\Temp\ValidationDetails\ValidationDetails\obj\Debug\net5.0\ValidationDetails.genruntimeconfig.cache
+C:\Temp\ValidationDetails\ValidationDetails\obj\Debug\net5.0\ValidationDetails.csprojAssemblyReference.cache
